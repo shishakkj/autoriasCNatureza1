@@ -1,0 +1,2 @@
+Esse código tem como função conseguir nomear cadeias carbônicas abertas e fechadas, com excessão de que não consegue colocar onde estão ligações específicas (EX.: Hept-1-eno).
+Para executar esse código, copie ele, acesse o site " https://www.onlinegdb.com/ ", mude a linguagem para "Java", limpe o texto que tem no site, cole o código e o execute.
