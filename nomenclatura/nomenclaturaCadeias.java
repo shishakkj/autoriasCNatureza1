@@ -40,7 +40,7 @@ public class Main
 	        System.out.println("Por favor insira um valor válido.");
 	    }
 	    
-	    System.out.println("Digite o tipo de ligações: \n[1] - Simples\n[2] - Dupla\n[3] - Tripla\n[4] - 2 duplas\n[5] - 3 duplas\n[6] - 2 triplas\n[7] - 3 triplas");
+	    System.out.println("\nDigite o tipo de ligações: \n[1] - Simples\n[2] - Dupla\n[3] - Tripla\n[4] - 2 duplas\n[5] - 3 duplas\n[6] - 2 triplas\n[7] - 3 triplas");
 	    int escolha2 = sla.nextInt();
 	    String tipoLigacao = "";
 	    if (escolha2 == 1){
@@ -68,7 +68,7 @@ public class Main
 	        System.out.println("Por favor insira um valor válido.");
 	    }
 	    
-	    System.out.println("Digite o grupo funcional: \n[1] - Hidrocarboneto\n[2] - Álcool\n[3] - Aldeido\n[4] - Ácido Carboxílico\n[5] - Cetona\n[6] - Amina\n[7] - Amida");
+	    System.out.println("\nDigite o grupo funcional: \n[1] - Hidrocarboneto\n[2] - Álcool\n[3] - Aldeido\n[4] - Ácido Carboxílico\n[5] - Cetona\n[6] - Amina\n[7] - Amida");
 	    int escolha3 = sla.nextInt();
 	    String grupo = "";
 	    if (escolha3 == 1){
@@ -96,18 +96,17 @@ public class Main
 	        System.out.println("Por favor insira um valor válido.");
 	    }
 	    
-	    System.out.println("Sua cadeia é fechada?\n[1] - Sim \n[2] - Não");
+	    System.out.println("\nSua cadeia é fechada?\n[1] - Sim \n[2] - Não");
 	    int escolha4 = sla.nextInt();
 	    String resultado = "" + numeroC + "" + tipoLigacao + "" + grupo+ "";
 	    if(escolha4 == 1){
-	        System.out.println("A nomenclatura é Ciclo " + resultado + ".");
+	        System.out.println("\nA nomenclatura é Ciclo " + resultado + ".");
 	        }
 	    else if(escolha4 == 2){
-	        System.out.println("A nomenclatura é " + resultado + ".");
+	        System.out.println("\nA nomenclatura é " + resultado + ".");
 	        }
 	    else {
 	        System.out.println("Por favor insira um valor válido.");
 	        }
 	}
 }
-	
