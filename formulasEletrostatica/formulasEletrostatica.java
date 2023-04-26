@@ -6,7 +6,7 @@ public class Main
             escolha();
         } 
         catch(Exception e){
-          System.out.print("Por favor digite um valor válido\n");
+          System.out.print("\nPor favor digite um valor válido\n");
           escolha();
         }
 	}
@@ -22,7 +22,7 @@ public class Main
 	        campoEletrico();
 	    }
 	    else{
-	        System.out.println("Por favor escolha uma opção válida\n");
+	        System.out.println("\nPor favor escolha uma opção válida\n");
 	        escolha();
 	    }
 	}
